@@ -1,0 +1,5 @@
+GET http://localhost:3000/wilders/
+GET http://localhost:3000/wilders/:id
+POST http://localhost:3000/wilders/
+DELETE http://localhost:3000/wilders/:id
+PUT http://localhost:3000/wilders/:id

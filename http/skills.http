@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/skills
+
+###
+
+POST http://localhost:3000/api/skills HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "css"
+}
+
+###
+PUT http://localhost:3000/api/skills/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "react"
+}
+
+###
+DELETE http://localhost:3000/api/skills/5
